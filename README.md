@@ -52,7 +52,8 @@ These insights empower stakeholders with key business metrics, enabling strategi
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 ##### Sources → Data Warehouse (SQL Server) → Consume
 
-<img width="745" height="426" alt="Screenshot 2026-08-18 at 1 53 03 PM" src="https://github.com/user-attachments/assets/c14a1095-29e3-4bcb-8920-849621e7aaf4" />
+<img width="792" height="438" alt="Screenshot 2026-08-20 at 12 50 47 AM" src="https://github.com/user-attachments/assets/9a46abba-3cd1-48ef-8d0f-f1bcb7d4d8b9" />
+
 
 ##### Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 ##### Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
